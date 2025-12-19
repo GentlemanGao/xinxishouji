@@ -5,7 +5,7 @@ import os
 # 设置网页配置
 st.set_page_config(page_title="信息收集", layout="centered")
 
-st.title("用户信息收集系统")
+st.title("数字替身：一种面向未知危害消解的APT防御模型（云晓春）")
 st.write("请填写以下信息，完成后点击提交。")
 
 # --- 1. 用户填写区域 ---
@@ -74,3 +74,4 @@ if password == MY_SECRET_PASSWORD:
         st.dataframe(df_show)
     else:
         st.info("暂时还没有用户提交数据。")
+
